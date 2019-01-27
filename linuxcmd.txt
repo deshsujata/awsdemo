@@ -1,0 +1,26 @@
+    1  service httpd status
+    2  cd /var/log/
+    3  ll
+    4  vi cloud-init-output.log
+    5  service httpd start
+    6  start httpd.service
+    7  service httpd start
+    8  service httpd statu
+    9  service httpd status
+   10  ls -ltr /var/www/html
+   11  exit
+   12  ll /etc/yum.repos.d
+   13  ll /etc/yum.repos.d/
+   14  yum install httpd -y
+   15  rpm -qa | grep httpd
+   16  yum install git -y
+   17  cd /opt/
+   18  mkdir -p /opt/gitdemo
+   19  cd gitdemo/
+   20  git init
+   21  vi linuxcmd.txt
+   22  ls -a
+   23  history
+   24  vi linuxcmd.txt
+   25  history
+   26  history >> linuxcmd.txt
